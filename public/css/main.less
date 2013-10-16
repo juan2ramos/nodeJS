@@ -1,0 +1,189 @@
+/* Imports */
+@import 'fuentes/fuentes.css';
+@import 'elements';
+
+/* Colores */
+@amarillo: #FFD135;
+@azul: #253B49;
+@blanco: #FFFDF0;
+@celeste: #B7E1E2;
+@gris: #292728;
+@purpura: #3C1327;
+@rojo: #C12B30;
+@verde: #283A2A;
+
+/* Breakpoints */
+@phone: 320px;
+@tablet: 720px;
+@desktop: 920px;
+
+/* Salvopatria */
+a {
+  color: @rojo;
+  text-decoration: none;
+}
+
+body {
+  border-right: 3px solid green;
+  color: @gris;
+  background: @blanco;
+  font-family: 'gt_pressura', sans-serif;
+  text-align: center;
+}
+
+footer {
+	position: fixed;
+	right: 15px;
+	bottom: 10px;
+
+	div {
+		display: inline-block;
+	}
+
+	.creditos {
+		font-family: 'monocromo';
+		font-size: 0.8em;
+
+		a {
+			color: @gris;
+			display: inline-block;
+			.rotation(90deg);
+
+			span {
+				display: none;
+			}
+		}
+	}
+
+	.reservas {
+		padding: 0 90px 0 0;
+	}
+}
+
+	.csstransforms footer {
+		bottom: auto;
+		position: fixed;
+		right: -160px;
+		top: 155px;
+		width: 365px;
+		.rotation(-90deg);
+	}
+
+header {
+	h1, h2 {
+		color: @rojo;
+		text-transform: uppercase;
+	}
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+#contacto {
+	background-color: @verde;
+	color: @blanco;
+}
+
+#el_dia {
+	#filters {
+		ol {
+			margin: 0;
+			padding: 0;
+
+			li {
+				display: inline-block;
+				list-style-position: inside;
+
+				a {
+					display: block;
+					padding: 0 0.5em;
+				}
+			}
+		}
+	}
+
+	#articles {
+		article {
+			margin: 1em;
+			position: relative;
+
+			.date {
+				display: inline-block;
+				left: 50%;
+				margin-left: -3em;
+				position: absolute;
+				top: -0.5em;
+			}
+		}
+	}
+}
+
+#menu_del_dia {
+	border: 3px solid @rojo;
+	color: @rojo;
+	display: inline-block;
+	margin: 1em 0;
+	padding: 0.2em;
+}
+
+#menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+	li {
+		display: inline;
+
+		a {
+			display: inline-block;
+			padding: 0.4em 0.8em;
+			text-transform: uppercase;
+		}
+	}
+}
+
+#redes {
+	margin: 0;
+	padding: 0;
+
+	li {
+		display: inline-block;
+
+		a {
+			display: block;
+			padding: 0 0.25em;
+		}
+	}
+}
+
+
+@media all and (max-width: @phone) {
+	body {
+		border-color: olive;
+	}
+}
+
+@media all and (min-width: @tablet) {
+	body {
+		border-color: yellow;
+	}
+
+	#contacto {
+		background-color: @blanco;
+		color: @gris;
+	}
+
+	#wrap {
+		padding: 0 30px;
+	}
+}
+
+@media all and (min-width: @desktop) {
+	body {
+		border-color: red;
+	}
+}
+
+/* Helper Classes */

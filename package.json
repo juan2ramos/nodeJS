@@ -1,0 +1,16 @@
+{
+  "name": "salvopatria",
+  "version": "0.0.1",
+  "description": "Salvo Patria Restaurante",
+  "dependencies": {
+    "harp": "0.8.x",
+    "bower": "~1.2.7"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "scripts": {
+      "postinstall": "./node_modules/bower/bin/bower install"
+  }
+}

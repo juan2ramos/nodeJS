@@ -1,0 +1,36 @@
+div#wrap
+
+  header
+    h1 Salvo Patria
+    h2 Mesa Libre
+    !=partial("_partials/nav")
+
+  aside#menu_del_dia 
+    | EL MENÚ &amp; CAFÉ 
+    sup del 
+    | DÍA 
+    span.date 09 / 09 / 13 
+    | LOMITO PIMIENTA Y ESPARRAGOS SALTADOS CON ARROZ BLANCO / CAFE CON LECHE
+
+  section#el_dia
+    !=partial("_sections/el_dia")
+
+  section#la_carta
+    !=partial("_sections/la_carta")
+
+  section#el_cafe
+    !=partial("_sections/el_cafe")
+
+  section#contacto
+    !=partial("_sections/contacto")
+
+  footer
+    div.reservas
+      span Reservas 
+      span.tel 218 09 27
+      a(href="mailto:salvopatria@salvopatria.com") 
+        sup  Mail
+    div.creditos
+      a#ocho.ir(href="http://8manos.com", target="_blank") 8 <span>manos</span> 
+      |  +  
+      a#mcrm.ir(href="http://elmonocromo.com", target="_blank")  M<span>onocromo</span>

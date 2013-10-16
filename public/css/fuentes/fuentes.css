@@ -1,0 +1,77 @@
+/* Fuentes */
+@font-face {
+    font-family: 'monocromo';
+    src: url('monocromo.eot');
+    src: url('monocromo.eot?#iefix') format('embedded-opentype'),
+         url('monocromo.woff') format('woff'),
+         url('monocromo.ttf') format('truetype'),
+         url('monocromo.svg#monocromo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gt_pressura';
+    src: url('gt-pressura-regular-italic-web-webfont.eot');
+    src: url('gt-pressura-regular-italic-web-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gt-pressura-regular-italic-web-webfont.woff') format('woff'),
+         url('gt-pressura-regular-italic-web-webfont.ttf') format('truetype'),
+         url('gt-pressura-regular-italic-web-webfont.svg#gt_pressuraregular_italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'gt_pressura';
+    src: url('gt-pressura-regular-web-webfont.eot');
+    src: url('gt-pressura-regular-web-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gt-pressura-regular-web-webfont.woff') format('woff'),
+         url('gt-pressura-regular-web-webfont.ttf') format('truetype'),
+         url('gt-pressura-regular-web-webfont.svg#gt_pressuraregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gt_pressura';
+    src: url('gt-pressura-light-italic-web-webfont.eot');
+    src: url('gt-pressura-light-italic-web-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gt-pressura-light-italic-web-webfont.woff') format('woff'),
+         url('gt-pressura-light-italic-web-webfont.ttf') format('truetype'),
+         url('gt-pressura-light-italic-web-webfont.svg#gt_pressuralight_italic') format('svg');
+    font-weight: lighter;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'gt_pressura';
+    src: url('gt-pressura-light-web-webfont.eot');
+    src: url('gt-pressura-light-web-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gt-pressura-light-web-webfont.woff') format('woff'),
+         url('gt-pressura-light-web-webfont.ttf') format('truetype'),
+         url('gt-pressura-light-web-webfont.svg#gt_pressuralight') format('svg');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gt_pressura';
+    src: url('gt-pressura-bold-web-webfont.eot');
+    src: url('gt-pressura-bold-web-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gt-pressura-bold-web-webfont.woff') format('woff'),
+         url('gt-pressura-bold-web-webfont.ttf') format('truetype'),
+         url('gt-pressura-bold-web-webfont.svg#gt_pressurabold') format('svg');
+    font-weight: normal;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'gt_pressura';
+    src: url('gt-pressura-bold-italic-web-webfont.eot');
+    src: url('gt-pressura-bold-italic-web-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gt-pressura-bold-italic-web-webfont.woff') format('woff'),
+         url('gt-pressura-bold-italic-web-webfont.ttf') format('truetype'),
+         url('gt-pressura-bold-italic-web-webfont.svg#gt_pressurabold_italic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
